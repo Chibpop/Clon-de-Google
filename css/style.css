@@ -1,0 +1,155 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.container{
+    width: 100%;
+    padding: 0 40px;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Header*/
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-form{
+    display: inline-block;
+}
+
+.search-form__box-container{
+    width: 584px;
+    height: 46px;
+    border-radius: 23px;
+    border: solid 1px #dfe1e5;
+}
+
+.search-form__box{
+    width: 544px;
+    height: 46px;
+    border: none;
+}
+
+.search-form__voice img{
+    max-height: 23px;
+}
+
+.search-form__box i{
+    font-size: 20px;
+    color: lightcoral;
+    display: in
+}
+
+.search-form__box::before{
+    content: 'hola';
+position: relative;
+}
+
+.search-form__box:focus{
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+.search-form__box:hover{
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+.search-form__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.search-form__button{
+    padding: 0 16px;
+    margin: 11px 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+
+.language-notification{
+    margin-top: 12px;
+}
+
+.language-notification a{
+    color: #1a0dab;
+}
+
+
+
+/* Footer */
+
+footer{
+    background-color: #f2f2f2;
+    border-top: solid 1px #e4e4e4;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.country-bar{
+    color: rgba(0,0,0,.54);
+}
+
+.footer-nav{
+    border-top: solid 1px #e4e4e4;
+}
+
+.footer-nav{
+    display: flex;
+}
+
+.footer-nav a{
+    color: #5f6368;
+}
+
+.footer-nav__left a{
+    padding-right: 27px;
+}
+
+.footer-nav__right{
+    display: inline-block;
+    text-align: end;
+}
+
+.footer-nav__right a{
+    padding-left: 27px;
+}
+
+
